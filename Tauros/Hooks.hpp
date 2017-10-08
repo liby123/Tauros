@@ -58,3 +58,4 @@ namespace Hooks
     LRESULT   __stdcall Hooked_WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 }
 
+SignatureHelper::SetClanTag("Cerberus", "Cerberus");
