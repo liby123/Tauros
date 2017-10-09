@@ -248,7 +248,7 @@ namespace Hooks
 		AutoPistol::CreateMove_Post(pLocal, cmd);
 		RankRevealer::CreateMove_Post(pLocal, cmd);
 
-		SignatureHelper::SetClanTag("Cerberus", "Cerberus");
+	
 
 		verified->m_cmd = *cmd;
 		verified->m_crc = cmd->GetChecksum();
